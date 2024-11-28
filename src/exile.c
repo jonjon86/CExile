@@ -1,5 +1,10 @@
 #include <stdbool.h>
 
+int main(int argc, char *argv[]) {
+    init();
+    main_loop();
+}
+
 struct ZeroPage {
     // Implementation of 6502 zero page, and functions where more appropriate
     bool whistle1_played;
@@ -12,14 +17,21 @@ struct ZeroPage {
     }
 }
 
+ZeroPage zp;
+bool running = true;
+
+void init() {
+    //do nothing for now
+}
+
 void main_loop() {
-    ZeroPage zp;
+    while(running) {
+        process_screen_background_flash();
+        process_objects();
+        process_events();
 
-    process_screen_background_flash();
-    process_objects();
-    process_events();
-
-    if zp.
+        if zp.
+    }
 }
 
 void process_screen_background_flash() {
