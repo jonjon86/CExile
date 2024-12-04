@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{add67fd0-ba08-4570-98f0-360af5ab534a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\exile.c">
@@ -22,6 +25,12 @@
   <ItemGroup>
     <None Include="6502\exile_6502.asm">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scripts\create_bitmap.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="scripts\draw_grid_on_image.py">
+      <Filter>scripts</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

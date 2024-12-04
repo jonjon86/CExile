@@ -131,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="6502\exile_6502.asm" />
+    <None Include="scripts\create_bitmap.py" />
+    <None Include="scripts\draw_grid_on_image.py" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="6502\sprite_bitmap.png" />

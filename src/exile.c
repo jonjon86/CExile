@@ -43,25 +43,25 @@ ObjectDefinitions obj_defs = {
                      0x1a, 0x71, 0x2e, 0x5d, 0x17, 0x20, 0x56, 0x57, 0x47, 0x22, 0x60, 0x7b, 0x76, 0x76, 0x58, 0x58,
                      0x21, 0x4d, 0x4d, 0x4d, 0x4d, 0x20, 0x4d, 0x4d, 0x22, 0x6b, 0x6c, 0x6c, 0x79, 0x6c, 0x04, 0x7a,
                      0x63, 0x7c, 0x7c, 0x79, 0x77},
-                     // & &80 = can be picked up
-                     // & &7f = palette
-                     .palette_idx = { 0x3e, 0x1b, 0x2e, 0xf2, 0x32, 0x32, 0x53, 0x05, 0x0f, 0x14, 0x29, 0xbc, 0x65, 0x65, 0xf7, 0x97,
-                                      0xd3, 0xc7, 0xef, 0x7e, 0x5f, 0x3c, 0x5a, 0x11, 0x2d, 0x34, 0xe1, 0x80, 0x55, 0x1b, 0x4c, 0x59,
-                                      0x23, 0x72, 0x2e, 0x7b, 0x77, 0x33, 0x39, 0x8b, 0x44, 0x51, 0x0d, 0x46, 0x2b, 0x53, 0x35, 0x3c,
-                                      0x02, 0x01, 0x70, 0x9c, 0xcf, 0x00, 0x14, 0x10, 0x4b, 0x10, 0x0c, 0x34, 0x6b, 0x6b, 0x42, 0x42,
-                                      0x31, 0x6f, 0x15, 0x2e, 0x12, 0xcb, 0x33, 0xb1, 0x62, 0x00, 0xdb, 0x9f, 0x8f, 0xcf, 0xe5, 0x8e,
-                                      0xef, 0xab, 0xad, 0x95, 0x9c, 0x91, 0x92, 0xa6, 0x91, 0xb1, 0x8e, 0xe0, 0xa2, 0xb5, 0xb3, 0xe3,
-                                      0xd5, 0xe3, 0xd7, 0xf0, 0xf1},
+    // & &80 = can be picked up
+    // & &7f = palette
+    .palette_idx = { 0x3e, 0x1b, 0x2e, 0xf2, 0x32, 0x32, 0x53, 0x05, 0x0f, 0x14, 0x29, 0xbc, 0x65, 0x65, 0xf7, 0x97,
+                    0xd3, 0xc7, 0xef, 0x7e, 0x5f, 0x3c, 0x5a, 0x11, 0x2d, 0x34, 0xe1, 0x80, 0x55, 0x1b, 0x4c, 0x59,
+                    0x23, 0x72, 0x2e, 0x7b, 0x77, 0x33, 0x39, 0x8b, 0x44, 0x51, 0x0d, 0x46, 0x2b, 0x53, 0x35, 0x3c,
+                    0x02, 0x01, 0x70, 0x9c, 0xcf, 0x00, 0x14, 0x10, 0x4b, 0x10, 0x0c, 0x34, 0x6b, 0x6b, 0x42, 0x42,
+                    0x31, 0x6f, 0x15, 0x2e, 0x12, 0xcb, 0x33, 0xb1, 0x62, 0x00, 0xdb, 0x9f, 0x8f, 0xcf, 0xe5, 0x8e,
+                    0xef, 0xab, 0xad, 0x95, 0x9c, 0x91, 0x92, 0xa6, 0x91, 0xb1, 0x8e, 0xe0, 0xa2, 0xb5, 0xb3, 0xe3,
+                    0xd5, 0xe3, 0xd7, 0xf0, 0xf1},
 
-                                      // & &80 = doesn't collide with other objects
-                                      // & &07 = weight; 01 = light, 06 = heavy, 07 = static
-                                      .gravity_flags = {    0x03, 0x23, 0x23, 0x22, 0x77, 0x77, 0x26, 0x6d, 0x6e, 0xf7, 0x6e, 0x25, 0xf7, 0xf7, 0x25, 0x69,
-                                                          0x6b, 0x68, 0x04, 0x63, 0x66, 0x66, 0x65, 0x66, 0x62, 0x64, 0x69, 0x69, 0x24, 0x25, 0x26, 0x77,
-                                                          0x77, 0x23, 0x05, 0x05, 0x05, 0x05, 0x04, 0x68, 0x77, 0x6a, 0x6c, 0x6b, 0x6b, 0x6c, 0x6c, 0x6c,
-                                                          0x6d, 0x6d, 0xe5, 0x61, 0x61, 0xe4, 0xe5, 0xe8, 0x24, 0xec, 0x26, 0xd7, 0x57, 0x57, 0x57, 0x57,
-                                                          0xd6, 0xd7, 0x57, 0x25, 0x82, 0x26, 0x25, 0x24, 0x77, 0x74, 0x24, 0x02, 0x22, 0x24, 0x22, 0x22,
-                                                          0x24, 0x23, 0x23, 0x23, 0x23, 0x25, 0x23, 0x23, 0x02, 0x26, 0x23, 0x23, 0x23, 0x23, 0x26, 0x25,
-                                                          0x22, 0x22, 0x22, 0x25, 0xe7}
+    // & &80 = doesn't collide with other objects
+    // & &07 = weight; 01 = light, 06 = heavy, 07 = static
+    .gravity_flags = {    0x03, 0x23, 0x23, 0x22, 0x77, 0x77, 0x26, 0x6d, 0x6e, 0xf7, 0x6e, 0x25, 0xf7, 0xf7, 0x25, 0x69,
+                        0x6b, 0x68, 0x04, 0x63, 0x66, 0x66, 0x65, 0x66, 0x62, 0x64, 0x69, 0x69, 0x24, 0x25, 0x26, 0x77,
+                        0x77, 0x23, 0x05, 0x05, 0x05, 0x05, 0x04, 0x68, 0x77, 0x6a, 0x6c, 0x6b, 0x6b, 0x6c, 0x6c, 0x6c,
+                        0x6d, 0x6d, 0xe5, 0x61, 0x61, 0xe4, 0xe5, 0xe8, 0x24, 0xec, 0x26, 0xd7, 0x57, 0x57, 0x57, 0x57,
+                        0xd6, 0xd7, 0x57, 0x25, 0x82, 0x26, 0x25, 0x24, 0x77, 0x74, 0x24, 0x02, 0x22, 0x24, 0x22, 0x22,
+                        0x24, 0x23, 0x23, 0x23, 0x23, 0x25, 0x23, 0x23, 0x02, 0x26, 0x23, 0x23, 0x23, 0x23, 0x26, 0x25,
+                        0x22, 0x22, 0x22, 0x25, 0xe7}
 };
 
 typedef struct SpriteDefinitions {
@@ -177,6 +177,110 @@ PrimaryStack ps = {
     .object_stack_extra = {0x0d, 0x0d, 0x0d, 0x0d, 0x0d, 0x0d, 0x0d, 0x05, 0xc6, 0xce, 0xc6, 0xc6, 0xc6, 0xbb, 0xc6, 0x18}
 };
 
+enum obj_types {
+    obj_player,
+    obj_active_chatter,
+    obj_pericles_crew_member,
+    obj_fluffy,
+    obj_small_nest,
+    obj_big_nest,
+    obj_red_frogman,
+    obj_green_frogman,
+    obj_cyan_frogman,
+    obj_red_slime,
+    obj_green_slime,
+    obj_yellow_ball,
+    obj_sucker,
+    obj_deadly_sucker,
+    obj_big_fish,
+    obj_worm,
+    obj_pirahna,
+    obj_wasp,
+    obj_active_grenade,
+    obj_icer_bullet,
+    obj_tracer_bullet,
+    obj_ball,
+    obj_blue_death_ball,
+    obj_red_bullet,
+    obj_pistol_bullet,
+    obj_plasma_ball,
+    obj_hover_ball,
+    obj_invisible_hover_ball,
+    obj_magenta_robot,
+    obj_red_robot,
+    obj_blue_robot,
+    obj_green_white_turret,
+    obj_cyan_red_turret,
+    obj_hovering_robot,
+    obj_magenta_clawed_robot,
+    obj_cyan_clawed_robot,
+    obj_green_clawed_robot,
+    obj_red_clawed_robot,
+    obj_triax,
+    obj_maggot,
+    obj_gargoyle,
+    obj_red_magenta_imp,
+    obj_red_yellow_imp,
+    obj_blue_cyan_imp,
+    obj_cyan_yellow_imp,
+    obj_red_cyan_imp,
+    obj_green_yellow_bird,
+    obj_white_yellow_bird,
+    obj_red_magenta_bird,
+    obj_invisible_bird,
+    obj_lightning,
+    obj_red_mushroom_ball,
+    obj_blue_mushroom_ball,
+    obj_engine_fire,
+    obj_red_drop,
+    obj_fireball,
+    obj_inactive_chatter,
+    obj_moving_fireball,
+    obj_giant_wall,
+    obj_engine_thruster,
+    obj_horizontal_door,
+    obj_vertical_door,
+    obj_horizontal_stone_door,
+    obj_vertical_stone_door,
+    obj_bush,
+    obj_teleport_beam,
+    obj_switch,
+    obj_chest_,
+    obj_explosion,
+    obj_rock_,
+    obj_cannon,
+    obj_mysterious_weapon,
+    obj_maggot_machine,
+    obj_placeholder,
+    obj_destinator,
+    obj_energy_capsule,
+    obj_empty_flask,
+    obj_full_flask,
+    obj_remote_control_device,
+    obj_cannon_control_device,
+    obj_inactive_grenade,
+    obj_cyan_yellow_green_key,
+    obj_red_yellow_green_key,
+    obj_green_yellow_red_key,
+    obj_yellow_white_red_key,
+    obj_coronium_boulder,
+    obj_red_magenta_red_key,
+    obj_blue_cyan_green_key,
+    obj_coronium_crystal,
+    obj_jetpack_booster,
+    obj_pistol,
+    obj_icer,
+    obj_discharge_device,
+    obj_plasma_gun,
+    obj_protection_suit,
+    obj_fire_immunity_device,
+    obj_mushroom_immunity_pull,
+    obj_whistle_1,
+    obj_whistle_2,
+    obj_radiation_immunity_pull,
+    obj_undefined
+};
+
 #define X_RANGES 4
 #define WATER_ENDGAME_POS 1
 typedef struct Water {
@@ -196,9 +300,9 @@ Water water = {
 
 unsigned short get_water_level_for_x(unsigned short x) {
     unsigned short level;
-    for (unsigned char i = X_RANGES; i > 0; --i) {
+    for (unsigned char i = X_RANGES - 1; i > 0; --i) {
         if (x > water.x_ranges[i]) {
-            level = water.water_level_by_x_range;
+            level = water.water_level_by_x_range[i];
             break;
         }
     };
@@ -235,6 +339,7 @@ typedef struct Sprite {
 typedef struct PrimaryStackObject {
     // stack values (can be stored back)
     unsigned char type;
+    bool is_player;
     unsigned short y;
     unsigned short x;
     unsigned char flags;
@@ -260,44 +365,6 @@ typedef struct PrimaryStackObject {
     bool is_static;
 } PrimaryStackObject;
 
-void process_object(int i) {
-    // Process specified object in the primary stack
-    assert(i <= PRIMARY_STACK_SIZE);
-
-    // pull object values from stack
-    PrimaryStackObject obj = get_object_from_stack(i);
-    append_object_def_data(obj);
-
-    // keep a copy of the old values
-    PrimaryStackObject obj_old = obj;
-
-    // process the object
-    unsigned char current_rotator = i * 17 + zp.loop_counter;   // pseudo random number 00-ff
-    unsigned char current_rotator_low = current_rotator & 0x0f; // pseudo random number 00-0f
-
-    // reset whistle 2 ??
-
-    // if static set velocity to zero
-    if (obj.is_static) {
-        obj.vel_x = 0;
-        obj.vel_y = 0;
-    }
-
-
-
-
-
-}
-
-void process_objects() {
-    // Process all objects in the primary stack
-    for (int i; i < 16; i++) {
-        if (ps.object_stack_y == 0x00)
-            continue;
-        process_object(i);
-    }
-}
-
 //Load the various properties for a primary stack object by index
 PrimaryStackObject get_object_from_stack(int i) {
     assert(i < PRIMARY_STACK_SIZE);
@@ -305,6 +372,8 @@ PrimaryStackObject get_object_from_stack(int i) {
     PrimaryStackObject obj;
 
     obj.type = ps.object_stack_type[i];
+    obj.is_player = obj.type = (unsigned char)obj_player;
+
     obj.y = ps.object_stack_y[i];
     obj.x = ps.object_stack_x[i];
     obj.flags = ps.object_stack_flags[i];
@@ -341,6 +410,68 @@ PrimaryStackObject get_object_from_stack(int i) {
 
     return obj;
 }
+
+void zero_velocities(PrimaryStackObject* obj) {
+    obj->vel_x = 0;
+    obj->vel_y = 0;
+}
+
+void move_object(PrimaryStackObject* obj) {
+    obj->x = obj->x + obj->vel_x;
+    obj->y = obj->y + obj->vel_y;
+}
+
+void process_object(int i) {
+    // Process specified object in the primary stack
+    assert(i <= PRIMARY_STACK_SIZE);
+
+    // pull object values from stack
+    PrimaryStackObject obj = get_object_from_stack(i);
+
+    // keep a copy of the old values
+    PrimaryStackObject obj_old = obj;
+
+    // process the object
+    unsigned char current_rotator = i * 17 + zp.loop_counter;   // pseudo random number 00-ff
+    unsigned char current_rotator_low = current_rotator & 0x0f; // pseudo random number 00-0f
+
+    //TODO: reset whistle 2 ??
+
+    // if static set velocities to zero
+    if (obj.is_static) {
+        zero_velocities(&obj);
+    }
+
+    unsigned char acc_x = 0;
+    unsigned char acc_y = 0;
+    unsigned char gun_aim_acc = 0;
+    unsigned char collision_with_other_object_top_bottom = 0;
+    unsigned char collision_with_other_object_sides = 0;
+    unsigned char wall_collision_frict_y_vel = 0;
+    unsigned char something_about_player_angle = 0xff; //I think??
+    unsigned char is_invisible = 0;
+
+    move_obj(&obj);
+
+    if (obj.is_player) {
+        //&1aea
+    }
+
+
+
+    //CONTINUE HERE
+
+}
+
+void process_objects() {
+    // Process all objects in the primary stack
+    for (int i = 0; i < 16; i++) {
+        if (ps.object_stack_y == 0x00)
+            continue;
+        process_object(i);
+    }
+}
+
 
 
 void process_events() {
