@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JonSturley\\OneDrive - Phi Partners International Ltd\\Documents 1\\GitHub\\CExile\\",
+  "WorkspaceRootPath": "C:\\Users\\jonst\\OneDrive\\Documents\\GitHub\\CExile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F7E8D60-A74D-45E9-AD36-5311D397EAF4}|Solution Items{1F7E8D60-A74D-45E9-AD36-5311D397EAF4}|C:\\Users\\JonSturley\\OneDrive - Phi Partners International Ltd\\Documents 1\\GitHub\\CExile\\src\\exile.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1F7E8D60-A74D-45E9-AD36-5311D397EAF4}|Solution Items{1F7E8D60-A74D-45E9-AD36-5311D397EAF4}|solutionrelative:src\\exile.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{673FB937-ABE5-4AAC-B506-126D3A51A3D4}|CExile.vcxproj|C:\\Users\\jonst\\OneDrive\\Documents\\GitHub\\CExile\\src\\exile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{673FB937-ABE5-4AAC-B506-126D3A51A3D4}|CExile.vcxproj|solutionrelative:src\\exile.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "exile.c",
-              "DocumentMoniker": "C:\\Users\\JonSturley\\OneDrive - Phi Partners International Ltd\\Documents 1\\GitHub\\CExile\\src\\exile.c",
+              "DocumentMoniker": "C:\\Users\\jonst\\OneDrive\\Documents\\GitHub\\CExile\\src\\exile.c",
               "RelativeDocumentMoniker": "src\\exile.c",
-              "ToolTip": "C:\\Users\\JonSturley\\OneDrive - Phi Partners International Ltd\\Documents 1\\GitHub\\CExile\\src\\exile.c",
-              "RelativeToolTip": "src\\exile.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jonst\\OneDrive\\Documents\\GitHub\\CExile\\src\\exile.c*",
+              "RelativeToolTip": "src\\exile.c*",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAkwBgBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-28T17:09:48.519Z",
+              "WhenOpened": "2024-12-03T21:52:42.91Z",
               "EditorCaption": ""
             }
           ]
